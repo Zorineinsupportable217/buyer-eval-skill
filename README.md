@@ -156,7 +156,7 @@ Every time you invoke the skill, it checks for a newer version on GitHub (cached
 ## Feedback & Requests
 
 - **Feature requests or bugs:** [Open an issue](https://github.com/salespeak-ai/buyer-eval-skill/issues)
-- **Request a category evaluation:** [GitHub Discussions](https://github.com/salespeak-ai/buyer-eval-skill/discussions)
+- **Request a category evaluation:** [Open a request](https://github.com/salespeak-ai/buyer-eval-skill/issues/new?title=Category+request:+&labels=category-request)
 
 ## License
 
